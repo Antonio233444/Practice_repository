@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1B191A;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 150px auto;
+}
+
+
+.dog-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.dog-list-item {
+    width: 467px;
+    min-height: 480px;
+    border: 1px solid #000;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.dog-card-title {
+    position: absolute;
+    top: 188px;
+    left: 0px;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #000;
+}
+
+
+.dog-card {
+    position: relative;
+}
+
+.gold-reward {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.red-reward {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+
+.dog-card-main {
+    padding: 10px;
+}
+
+.dog-card-description {
+    max-width: 435px;
+    font-size: 16px;
+    color: #000;
+}
+
+.first-card {
+    margin-bottom: 50px;
+}
+
+.second-card {
+    margin-bottom: 110px;
+}
+
+.third-card {
+    margin-bottom: 93px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #8C32FF;
+    padding: 8px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+
+

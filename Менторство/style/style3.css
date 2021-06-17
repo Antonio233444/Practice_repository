@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #1B191A;
+    padding: 50px;
+}
+
+
+
+.container {
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+
+.grid__item {
+
+}
+
+.card {
+    height: 100%; /*уточнить*/
+     display: flex;  
+}
+
+.card__main {
+    position: relative;
+}
+
+.card__img {
+     /* display: block;       
+    max-width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;*/
+}
+
+.card__title {
+     font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    border-radius: 0 8px 0 8px;
+    padding: 8px 16px;
+    background-color: rgba(0, 0, 0, .5);
+    max-width: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 0;  
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card__rewards {
+     position: absolute;
+    top: 16px;
+    right: 16px; 
+}
+
+.card__reward {
+
+margin-bottom: 8px;
+
+}
+
+
+.card__reward-img {
+     display: block; 
+
+}
+
+.card__content {
+   padding: 16px 9px 12px 20px;
+   border-radius: 0  0 8px 8px;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start; 
+}
+
+.card__description {
+     font-size: 16px;
+    color: #000;
+    line-height: 24px;
+    margin-bottom: 24px; 
+}
+
+.btn {
+     display: inline-block;
+    vertical-align: top;
+    background-color: #8C32FF;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff; 
+}
+
+.card__btn {
+     margin-top: auto; 
+}
